@@ -1,0 +1,23 @@
+footer {
+    background-color: #648d61;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+    .links {
+        display: flex;
+        flex-direction: column;
+
+        a {
+            color: white;
+            text-decoration: none;
+        }
+    }
+
+    .logo {
+        img {
+            height: 145px;
+        }
+    }
+}
