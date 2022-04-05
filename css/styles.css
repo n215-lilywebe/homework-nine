@@ -5,6 +5,7 @@
   font-family: "Abril Fatface", cursive;
   letter-spacing: 7px;
   text-transform: lowercase;
+  color: white;
 }
 
 html,
@@ -49,15 +50,19 @@ p {
 .content .best-sellers h3 {
   text-align: center;
   font-size: 40px;
+  background-color: #648d61;
+  border-radius: 20px;
+  width: 400px;
+  margin: 0 auto;
 }
 .content .best-sellers .best-sellers-imgs {
-  padding-left: 60px;
   display: flex;
   align-items: center;
   justify-content: space-evenly;
   padding-top: 30px;
   width: 100%;
   margin: 0 auto;
+  text-align: center;
 }
 .content .best-sellers .best-sellers-imgs div {
   width: 300px;
@@ -84,6 +89,13 @@ p {
   text-align: center;
   padding-top: 100px;
   padding-bottom: 200px;
+}
+.come-see-us h1 {
+  background-color: #648d61;
+  border-radius: 20px;
+  width: 300px;
+  margin: 0 auto;
+  margin-bottom: 50px;
 }
 
 nav {
@@ -112,9 +124,59 @@ footer .links {
 footer .links a {
   color: white;
   text-decoration: none;
+  letter-spacing: 5px;
 }
 footer .logo img {
   height: 145px;
+}
+
+.products {
+  background-color: #91AE90;
+  width: 100%;
+  margin: 0 auto;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  padding-top: 50px;
+  padding-bottom: 100px;
+}
+.products .product {
+  width: 400px;
+  text-align: center;
+  padding-top: 50px;
+}
+.products .product h3 {
+  background-color: #648d61;
+  border-radius: 15px;
+  width: 195px;
+  margin: 0 auto;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  letter-spacing: 5px;
+}
+.products .product p {
+  width: 195px;
+  margin: 0 auto;
+  letter-spacing: 3px;
+  font-size: 15px;
+}
+.products .product img {
+  width: 195px;
+  height: 259px;
+}
+
+.hero-other {
+  background-image: url("../images/hero.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 200px;
+  text-align: center;
+}
+.hero-other h1 {
+  padding-top: 70px;
 }
 
 /*# sourceMappingURL=styles.css.map */

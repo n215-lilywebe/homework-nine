@@ -27,16 +27,21 @@
         h3 {
             text-align: center;
             font-size: 40px;
+            background-color: #648d61;
+            border-radius: 20px;
+            width: 400px;
+            margin: 0 auto;
         }
 
         .best-sellers-imgs {
-            padding-left: 60px;
+
             display: flex;
             align-items: center;
             justify-content: space-evenly;
             padding-top: 30px;
             width: 100%;
             margin: 0 auto;
+            text-align: center;
 
             div {
                 width: 300px;
@@ -61,6 +66,8 @@
     margin: 0 auto;
     letter-spacing: 5px;
     text-transform: lowercase;
+
+
 }
 
 .come-see-us {
@@ -69,4 +76,12 @@
     text-align: center;
     padding-top: 100px;
     padding-bottom: 200px;
+
+    h1 {
+        background-color: #648d61;
+        border-radius: 20px;
+        width: 300px;
+        margin: 0 auto;
+        margin-bottom: 50px;
+    }
 }

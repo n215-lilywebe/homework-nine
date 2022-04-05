@@ -38,7 +38,61 @@ var homeContent = `        <div class="hero">
 </div>
 </div>`;
 var aboutContent = '<h1>about</h1>';
-var productsContent = '<h1>products</h1>';
+var productsContent = `        <div class="hero-other">
+<h1>our shop</h1>
+</div>
+<div class="products">
+<div class="product">
+    <img src="images/product-one.jpg" alt="">
+    <h3>product one</h3>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur, repellat.</p>
+</div>
+<div class="product">
+    <img src="images/product-two.jpg" alt="">
+    <h3>product two</h3>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur, repellat.</p>
+</div>
+<div class="product">
+    <img src="images/product-three.jpg" alt="">
+    <h3>product three</h3>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur, repellat.</p>
+</div>
+<div class="product">
+    <img src="images/product-four.jpg" alt="">
+    <h3>product four</h3>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur, repellat.</p>
+</div>
+<div class="product">
+    <img src="images/product-five.jpg" alt="">
+    <h3>product five</h3>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur, repellat.</p>
+</div>
+<div class="product">
+    <img src="images/product-six.jpg" alt="">
+    <h3>product six</h3>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur, repellat.</p>
+</div>
+<div class="product">
+    <img src="images/product-seven.jpg" alt="">
+    <h3>product seven</h3>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur, repellat.</p>
+</div>
+<div class="product">
+    <img src="images/product-eight.jpg" alt="">
+    <h3>product eight</h3>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur, repellat.</p>
+</div>
+<div class="product">
+    <img src="images/product-nine.jpg" alt="">
+    <h3>product nine</h3>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur, repellat.</p>
+</div>
+<div class="product">
+    <img src="images/product-ten.jpg" alt="">
+    <h3>product ten</h3>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur, repellat.</p>
+</div>
+</div>`;
 var ourteamContent = '<h1>contact</h1>';
 
 
