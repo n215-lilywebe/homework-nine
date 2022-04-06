@@ -23,6 +23,10 @@ p {
   margin-bottom: 16px;
 }
 
+p {
+  letter-spacing: 5px;
+}
+
 .hero {
   background-image: url("../images/hero.jpg");
   background-position: center;
@@ -54,6 +58,7 @@ p {
   border-radius: 20px;
   width: 400px;
   margin: 0 auto;
+  padding: 5px;
 }
 .content .best-sellers .best-sellers-imgs {
   display: flex;
@@ -96,6 +101,7 @@ p {
   width: 300px;
   margin: 0 auto;
   margin-bottom: 50px;
+  padding: 15px;
 }
 
 nav {
@@ -130,6 +136,90 @@ footer .logo img {
   height: 145px;
 }
 
+.mission {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 70%;
+  margin: 0 auto;
+  padding-top: 50px;
+}
+.mission .mission-img img {
+  height: 300px;
+}
+.mission .mission-text {
+  text-align: center;
+  width: 50%;
+}
+.mission .mission-text h3 {
+  background-color: #648d61;
+  border-radius: 15px;
+  width: 250px;
+  font-size: 30px;
+  margin: 0 auto;
+  margin-bottom: 30px;
+  padding: 15px;
+}
+.mission .mission-text p {
+  letter-spacing: 5px;
+}
+
+.commitment {
+  width: 70%;
+  margin: 0 auto;
+  text-align: center;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+.commitment p {
+  width: 50%;
+  margin: 0 auto;
+}
+.commitment h3 {
+  background-color: #648d61;
+  border-radius: 15px;
+  width: 500px;
+  font-size: 30px;
+  margin: 0 auto;
+  margin-bottom: 30px;
+  padding: 15px;
+}
+
+.our-founders {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 70%;
+  margin: 0 auto;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+.our-founders .founders-bio {
+  text-align: center;
+  width: 50%;
+}
+.our-founders .founders-bio h3 {
+  background-color: #648d61;
+  border-radius: 15px;
+  width: 350px;
+  font-size: 30px;
+  margin: 0 auto;
+  margin-bottom: 30px;
+  padding: 15px;
+}
+
+.hero-other {
+  background-image: url("../images/hero.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 200px;
+  text-align: center;
+}
+.hero-other h1 {
+  padding-top: 70px;
+}
+
 .products {
   background-color: #91AE90;
   width: 100%;
@@ -155,6 +245,7 @@ footer .logo img {
   margin-top: 10px;
   margin-bottom: 20px;
   letter-spacing: 5px;
+  padding: 5px;
 }
 .products .product p {
   width: 195px;
@@ -165,18 +256,6 @@ footer .logo img {
 .products .product img {
   width: 195px;
   height: 259px;
-}
-
-.hero-other {
-  background-image: url("../images/hero.jpg");
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  height: 200px;
-  text-align: center;
-}
-.hero-other h1 {
-  padding-top: 70px;
 }
 
 /*# sourceMappingURL=styles.css.map */
