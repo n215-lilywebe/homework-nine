@@ -134,7 +134,49 @@ var productsContent = `        <div class="hero-other">
     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur, repellat.</p>
 </div>
 </div>`;
-var ourteamContent = '<h1>contact</h1>';
+var ourteamContent = `<div class="hero-other">
+<h1>meet the fam!</h1>
+</div>
+<div class="content">
+<div class="products">
+    <div class="product">
+        <img src="images/sally.jpg" alt="">
+        <h3>sally</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus nesciunt fuga ipsa iste odio
+            recusandae earum quae non eveniet unde.</p>
+    </div>
+    <div class="product">
+        <img src="images/megan.jpg" alt="">
+        <h3>jane</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus nesciunt fuga ipsa iste odio
+            recusandae earum quae non eveniet unde.</p>
+    </div>
+    <div class="product">
+        <img src="images/lily.jpg" alt="">
+        <h3>lily</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus nesciunt fuga ipsa iste odio
+            recusandae earum quae non eveniet unde.</p>
+    </div>
+    <div class="product">
+        <img src="images/lauren.jpg" alt="">
+        <h3>lauren</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus nesciunt fuga ipsa iste odio
+            recusandae earum quae non eveniet unde.</p>
+    </div>
+    <div class="product">
+        <img src="images/jane.jpg" alt="">
+        <h3>megan</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus nesciunt fuga ipsa iste odio
+            recusandae earum quae non eveniet unde.</p>
+    </div>
+    <div class="product">
+        <img src="images/carrie.jpg" alt="">
+        <h3>carrie</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus nesciunt fuga ipsa iste odio
+            recusandae earum quae non eveniet unde.</p>
+    </div>
+</div>
+</div>`;
 
 
 export function modelPageName(pgName) {
